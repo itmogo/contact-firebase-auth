@@ -61,7 +61,7 @@ export const addContactAction = (contact) => {
         let contacts = []; // snapshot doc is passed to this array
         snapshot.forEach ((doc)=>{ // maps the data one after another
           //this code moves all data from firestore and add id
-          // so it individual contacts can be deleted
+          // so each data  - individual contacts can be deleted
           contacts.push({...doc.data(), id: doc.id}); 
         });
         console.log(contacts);

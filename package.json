@@ -1,5 +1,5 @@
 {
-  "name": "react-contact-redux-crud-firebase",
+  "name": "react-contact-redux-crud-firebase-auth",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
